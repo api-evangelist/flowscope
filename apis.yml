@@ -1,8 +1,30 @@
 aid: flowscope
 name: Flowscope
-description: Flowscope is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Flowscope is an AI-native process-automation firm (Y Combinator, Spring 2026)
+  that deploys agents to observe how a business actually runs, map and redesign
+  its workflows, then ship the automation into production on top of existing
+  systems in days rather than months. It positions itself as the AI team for
+  mid-market operating businesses that do not have one, selling
+  services-as-software with outcome-aligned pricing rather than a self-serve
+  developer API. Founded in 2025 in San Francisco by Samuel Mirpuri (ex-McKinsey
+  QuantumBlack) and Javier Leguina (founding engineer, ModelML), Flowscope runs
+  forward-deployed agents that shadow employees, baseline the process, redesign
+  the work, and write back into legacy systems of record while a human core
+  keeps judgment and accountability in the loop.
 url: https://raw.githubusercontent.com/api-evangelist/flowscope/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.flowscope.com/wordmarks/wordmark-1200x630.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,51 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Automation
+- Process Automation
+- Agents
+- Consulting
+- Services-as-Software
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: TrustCenter
+  url: security/flowscope-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/flowscope-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/flowscope-domain-security.yml
+- type: Website
+  url: https://www.flowscope.com
+- type: Blog
+  url: https://www.flowscope.com/blog
+- type: BlogRSS
+  url: https://www.flowscope.com/blog/rss.xml
+- type: TermsOfService
+  url: https://www.flowscope.com/terms
+- type: PrivacyPolicy
+  url: https://www.flowscope.com/privacy
+- type: SecurityTxt
+  url: well-known/flowscope-security.txt
+- type: WellKnown
+  url: well-known/flowscope-well-known.yml
+- type: LLMsTxt
+  url: llms/flowscope-llms.txt
+- type: Security
+  url: https://trust.flowscope.com/
+- type: Compliance
+  url: https://trust.flowscope.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

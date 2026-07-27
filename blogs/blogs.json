@@ -1,0 +1,28 @@
+{
+  "repo": "flowscope",
+  "feeds": [
+    {
+      "source": "https://www.flowscope.com",
+      "feed_url": "https://www.flowscope.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.flowscope.com/blog/rss.xml",
+      "feed_url": "https://www.flowscope.com/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.flowscope.com/blog",
+      "feed_url": "https://www.flowscope.com/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 39,
+  "fetched": "2026-07-25T15:00:33Z"
+}

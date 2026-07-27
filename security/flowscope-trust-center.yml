@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.flowscope.com/
+url: https://trust.flowscope.com/
+certifications:
+- SOC 2
+- ISO 27001
+- PCI DSS
+- HIPAA
+- GDPR
+- CCPA
+evidence:
+- source: https://trust.flowscope.com/
+  keywords:
+  - soc 2
+  - iso 27001
+  - pci-dss
+  - hipaa
+  - trust center
+  - gdpr
